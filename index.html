@@ -17,59 +17,84 @@
     <title>My portfolio</title>
   </head>
   <body>
-    <main class="max-w-7xl mx-auto">
+    <main class="">
       <!--navbar-->
-      <div class="navbar mt-6">
-        <div class="navbar-start text-5xl font-bold">
-          <h1>Ri<span class="text-[#FD6E0A]">ch</span>ie</h1>
-        </div>
-
-        <div class="navbar-end gap-10 text-2xl text-[#474747]">
-          <a>Portfolio</a>
-          <a>Blog</a>
-          <a class="btn text-2xl text-white bg-[#FD6E0A] p-6 rounded-lg"
-            >Hire Me</a
+      <div class="relative bg-[#FFF8F3] overflow-hidden">
+        <!-- Developer Text -->
+        <div class="absolute left-24 top-1/1 -translate-y-1/2">
+          <h1
+            class="text-[106px] font-bold text-[#181818] opacity-10 -rotate-90 origin-left tracking-wider"
           >
-        </div>
-      </div>
-
-      <!---home-->
-      <div class="ml-2.5 flex justify-between items-center mt-16">
-        <div class="max-w-sm space-y-5">
-          <h3 class="font-normal text-4xl text-[#474747]">Hi, I am</h3>
-
-          <h1 class="font-bold text-6xl">
-            Tasfia <span class="text-[#FD6E0A]">Richie</span>
+            D e v e l o p e r
           </h1>
+        </div>
 
-          <p class="text-base text-[#757575]">
-            Shot what able cold new see hold. Friendly as an betrayed formerly
-            he. Morning because as to society behaved moments.
-          </p>
+        <div class="navbar mt-6 relative z-10">
+          <div class="navbar-start ml-75 text-5xl font-bold">
+            <h1>Ri<span class="text-[#FD6E0A]">ch</span>ie</h1>
+          </div>
 
-          <!-- Button Container -->
-          <div class="flex items-center gap-5">
-            <a class="btn text-xl text-white bg-[#FD6E0A] p-6 rounded-lg">
-              <i class="fa-solid fa-download"></i>
-              Download CV
-            </a>
-
-            <a
-              class="btn text-xl text-[#FD6E0A] bg-white p-6 rounded-lg border-2 border-[#FD6E0A]"
-            >
-              <i class="fa-solid fa-phone"></i>
-              Contact
+          <div class="navbar-end gap-10 mr-40 text-2xl text-[#474747]">
+            <a>Portfolio</a>
+            <a>Blog</a>
+            <a class="btn text-2xl text-white bg-[#FD6E0A] p-6 rounded-lg">
+              Hire Me
             </a>
           </div>
         </div>
 
+        <!---home-->
         <div
-          class="bg-[url('./assets/dp-bg.png')] bg-no-repeat bg-center bg-contain"
+          class="relative ml-2.5 flex justify-between ml-40 items-center mt-2 overflow-hidden"
         >
-          <img src="./assets/richie.png" alt="" />
+          <!-- Left Content -->
+          <div class="max-w-xl space-y-5 ml-40">
+            <h3 class="font-normal text-4xl text-[#474747]">Hi, I am</h3>
+
+            <h1 class="font-bold text-8xl text-[#181818]">
+              Tasfia <span class="text-[#FD6E0A]">Richie</span>
+            </h1>
+
+            <p class="text-lg text-[#757575]">
+              Shot what able cold new see hold. Friendly as an betrayed formerly
+              he. Morning because as to society behaved moments.
+            </p>
+
+            <!-- Buttons -->
+            <div class="flex items-center gap-5">
+              <a class="btn text-xl text-white bg-[#FD6E0A] p-6 rounded-lg">
+                <i class="fa-solid fa-download"></i>
+                Download CV
+              </a>
+
+              <a
+                class="btn text-xl text-[#FD6E0A] bg-white p-6 rounded-lg border-2 border-[#FD6E0A]"
+              >
+                <i class="fa-solid fa-phone"></i>
+                Contact
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Image Section -->
+          <div
+            class="relative w-200 h-200 flex items-center justify-center pb-21 pl-8"
+          >
+            <!-- Background Image -->
+            <div
+              class="absolute inset-0 bg-no-repeat bg-contain bg-center"
+              style="background-image: url(&quot;./assets/dp-bg.png&quot;)"
+            ></div>
+
+            <!-- Main Image -->
+            <img
+              src="./assets/richie.png"
+              class="relative w-full h-full object-contain z-10"
+              alt="tasfia richie"
+            />
+          </div>
         </div>
       </div>
-
       <!---About me-->
 
       <div
